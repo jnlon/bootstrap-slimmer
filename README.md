@@ -14,7 +14,7 @@ Changes Include:
 - Install `npm`
 - Install `nodejs` V14, ie. `nodejs-lts-fermium`
 
-### Build COmmand
+### Build Command
 
 ```
 npm i && npm run css
