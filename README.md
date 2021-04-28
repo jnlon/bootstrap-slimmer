@@ -1,13 +1,36 @@
 # bootstrap-slimmer
 
-A fork of bootstrap 4.6 removing parts I personally do not use, with the goal
-of reducing CSS output size.
+A fork of bootstrap 4.6.0 removing parts I personally do not use, with the goal
+of reducing CSS file size.
 
 Changes Include:
 
-- Disable various modules (notably grid system and various media-rich components)
-- Remove mobile-first/"responsive" features including most/all screen size media queries
-- Remove various vendor-specific css prefixes, eg `-ms-flex: `
+- Remove features including grid system and media-rich/interactive components (cards, carousels, modals, etc)
+- Remove mobile-first/"responsive" CSS including screen size media queries
+- Remove various vendor-specific CSS prefixes, eg. `-ms-flex: `
+
+## Build Instructions
+
+- Install `npm`
+- Install `nodejs` V14, ie. `nodejs-lts-fermium`
+
+### Build COmmand
+
+```
+npm i && npm run css
+```
+
+Retrieve your files from:
+
+-  dist/css/bootstrap.css 
+-  dist/css/bootstrap.min.css
+
+## Size Comparison
+
+Default Bootstrap 4.6 Size / Minimized: **194.74Kb** / **157.63Kb**
+Slimmer Bootstrap 4.6 Size / Minimized: **76.96Kb** / **65.28Kb**
+
+Result: Bootstrap-Slimmer css is **~40%** of the original bootstrap file size
 
 <p align="center">
   <a href="https://getbootstrap.com/">
