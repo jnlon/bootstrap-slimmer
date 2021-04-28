@@ -9,10 +9,6 @@ module.exports = ctx => {
         annotation: true,
         sourcesContent: true
       },
-    plugins: {
-      autoprefixer: {
-        cascade: false
-      }
-    }
+    plugins: { }
   }
 }
