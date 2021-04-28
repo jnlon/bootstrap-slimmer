@@ -1,3 +1,14 @@
+# bootstrap-slimmer
+
+A fork of bootstrap 4.6 removing parts I personally do not use, with the goal
+of reducing CSS output size.
+
+Changes Include:
+
+- Disable various modules (notably grid system and various media-rich components)
+- Remove mobile-first/"responsive" features including most/all screen size media queries
+- Remove various vendor-specific css prefixes, eg `-ms-flex: `
+
 <p align="center">
   <a href="https://getbootstrap.com/">
     <img src="https://getbootstrap.com/docs/4.6/assets/brand/bootstrap-solid.svg" alt="Bootstrap logo" width="72" height="72">
