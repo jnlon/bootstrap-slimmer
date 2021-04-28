@@ -25,10 +25,10 @@
   @include transition($input-transition);
 
   // Unstyle the caret on `<select>`s in IE10+.
-  &::-ms-expand {
-    background-color: transparent;
-    border: 0;
-  }
+  //&::-ms-expand {
+  //  background-color: transparent;
+  //  border: 0;
+  //}
 
   // Remove select outline from select box in FF
   &:-moz-focusring {
@@ -68,17 +68,17 @@ input[type="month"] {
   }
 }
 
-select.form-control {
-  &:focus::-ms-value {
-    // Suppress the nested default white text on blue background highlight given to
-    // the selected option text when the (still closed) <select> receives focus
-    // in IE and (under certain conditions) Edge, as it looks bad and cannot be made to
-    // match the appearance of the native widget.
-    // See https://github.com/twbs/bootstrap/issues/19398.
-    color: $input-color;
-    background-color: $input-bg;
-  }
-}
+//select.form-control {
+//  &:focus::-ms-value {
+//    // Suppress the nested default white text on blue background highlight given to
+//    // the selected option text when the (still closed) <select> receives focus
+//    // in IE and (under certain conditions) Edge, as it looks bad and cannot be made to
+//    // match the appearance of the native widget.
+//    // See https://github.com/twbs/bootstrap/issues/19398.
+//    color: $input-color;
+//    background-color: $input-bg;
+//  }
+//}
 
 // Make file inputs better match text inputs by forcing them to new lines.
 .form-control-file,
