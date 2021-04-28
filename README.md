@@ -27,8 +27,8 @@ Retrieve your files from:
 
 ## Size Comparison
 
-Default Bootstrap 4.6 Size / Minimized: **194.74Kb** / **157.63Kb**
-Slimmer Bootstrap 4.6 Size / Minimized: **76.96Kb** / **65.28Kb**
+- Default Bootstrap 4.6 Size / Minimized: **194.74Kb** / **157.63Kb**
+- Slimmer Bootstrap 4.6 Size / Minimized: **76.96Kb** / **65.28Kb**
 
 Result: Bootstrap-Slimmer css is **~40%** of the original bootstrap file size
 
